@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D92BE54F1A5C90E50030A10C /* SCRHTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D92BE54A1A5C90E50030A10C /* SCRHTTPAsyncFileResponse.m */; };
+		D92BE5501A5C90E50030A10C /* SCRHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D92BE54C1A5C90E50030A10C /* SCRHTTPConnection.m */; };
+		D92BE5511A5C90E50030A10C /* SCRHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D92BE54E1A5C90E50030A10C /* SCRHTTPServer.m */; };
+		D92BE5541A5CBC980030A10C /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D92BE5531A5CBC980030A10C /* test.mp3 */; };
+		D92BE5581A5CC3180030A10C /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D92BE5571A5CC3180030A10C /* image.jpg */; };
+		D92BE55A1A5CC5930030A10C /* 480p_15sec.mov in Resources */ = {isa = PBXBuildFile; fileRef = D92BE5591A5CC5930030A10C /* 480p_15sec.mov */; };
 		D95F09141A5AEB0C0096374D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F09131A5AEB0C0096374D /* main.m */; };
 		D95F09171A5AEB0C0096374D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F09161A5AEB0C0096374D /* AppDelegate.m */; };
 		D95F091A1A5AEB0C0096374D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F09191A5AEB0C0096374D /* ViewController.m */; };
@@ -14,6 +20,7 @@
 		D95F091F1A5AEB0C0096374D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95F091E1A5AEB0C0096374D /* Images.xcassets */; };
 		D95F09221A5AEB0C0096374D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95F09201A5AEB0C0096374D /* LaunchScreen.xib */; };
 		D95F092E1A5AEB0D0096374D /* EncryptedFilesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F092D1A5AEB0D0096374D /* EncryptedFilesTestTests.m */; };
+		FE88229F4A9E0A7413DAA615 /* libPods-EncryptedFilesTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E968494CBA00C1EA1A6B5B74 /* libPods-EncryptedFilesTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3301408736E9F912CF66F370 /* Pods-EncryptedFilesTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptedFilesTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EncryptedFilesTest/Pods-EncryptedFilesTest.debug.xcconfig"; sourceTree = "<group>"; };
+		47FCA7572D1D974BA97536AF /* Pods-EncryptedFilesTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptedFilesTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EncryptedFilesTest/Pods-EncryptedFilesTest.release.xcconfig"; sourceTree = "<group>"; };
+		D92BE5491A5C90E50030A10C /* SCRHTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRHTTPAsyncFileResponse.h; path = EncryptedFilesTest/SCRHTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		D92BE54A1A5C90E50030A10C /* SCRHTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRHTTPAsyncFileResponse.m; path = EncryptedFilesTest/SCRHTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		D92BE54B1A5C90E50030A10C /* SCRHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRHTTPConnection.h; path = EncryptedFilesTest/SCRHTTPConnection.h; sourceTree = "<group>"; };
+		D92BE54C1A5C90E50030A10C /* SCRHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRHTTPConnection.m; path = EncryptedFilesTest/SCRHTTPConnection.m; sourceTree = "<group>"; };
+		D92BE54D1A5C90E50030A10C /* SCRHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRHTTPServer.h; path = EncryptedFilesTest/SCRHTTPServer.h; sourceTree = "<group>"; };
+		D92BE54E1A5C90E50030A10C /* SCRHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRHTTPServer.m; path = EncryptedFilesTest/SCRHTTPServer.m; sourceTree = "<group>"; };
+		D92BE5531A5CBC980030A10C /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = test.mp3; path = samples/test.mp3; sourceTree = SOURCE_ROOT; };
+		D92BE5571A5CC3180030A10C /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = samples/image.jpg; sourceTree = SOURCE_ROOT; };
+		D92BE5591A5CC5930030A10C /* 480p_15sec.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 480p_15sec.mov; path = samples/480p_15sec.mov; sourceTree = SOURCE_ROOT; };
 		D95F090E1A5AEB0C0096374D /* EncryptedFilesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptedFilesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95F09121A5AEB0C0096374D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95F09131A5AEB0C0096374D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +58,7 @@
 		D95F09271A5AEB0C0096374D /* EncryptedFilesTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptedFilesTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95F092C1A5AEB0D0096374D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95F092D1A5AEB0D0096374D /* EncryptedFilesTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptedFilesTestTests.m; sourceTree = "<group>"; };
+		E968494CBA00C1EA1A6B5B74 /* libPods-EncryptedFilesTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EncryptedFilesTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE88229F4A9E0A7413DAA615 /* libPods-EncryptedFilesTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +80,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F940A017B576B476BB3B5D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E968494CBA00C1EA1A6B5B74 /* libPods-EncryptedFilesTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A89984E88F3D4180B7D19AAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3301408736E9F912CF66F370 /* Pods-EncryptedFilesTest.debug.xcconfig */,
+				47FCA7572D1D974BA97536AF /* Pods-EncryptedFilesTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D92BE5521A5C90EB0030A10C /* HTTP Server */ = {
+			isa = PBXGroup;
+			children = (
+				D92BE5491A5C90E50030A10C /* SCRHTTPAsyncFileResponse.h */,
+				D92BE54A1A5C90E50030A10C /* SCRHTTPAsyncFileResponse.m */,
+				D92BE54B1A5C90E50030A10C /* SCRHTTPConnection.h */,
+				D92BE54C1A5C90E50030A10C /* SCRHTTPConnection.m */,
+				D92BE54D1A5C90E50030A10C /* SCRHTTPServer.h */,
+				D92BE54E1A5C90E50030A10C /* SCRHTTPServer.m */,
+			);
+			name = "HTTP Server";
+			sourceTree = "<group>";
+		};
 		D95F09051A5AEB0C0096374D = {
 			isa = PBXGroup;
 			children = (
+				D92BE5521A5C90EB0030A10C /* HTTP Server */,
 				D95F09101A5AEB0C0096374D /* EncryptedFilesTest */,
 				D95F092A1A5AEB0D0096374D /* EncryptedFilesTestTests */,
 				D95F090F1A5AEB0C0096374D /* Products */,
+				A89984E88F3D4180B7D19AAE /* Pods */,
+				8F940A017B576B476BB3B5D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +134,9 @@
 		D95F09101A5AEB0C0096374D /* EncryptedFilesTest */ = {
 			isa = PBXGroup;
 			children = (
+				D92BE5591A5CC5930030A10C /* 480p_15sec.mov */,
+				D92BE5571A5CC3180030A10C /* image.jpg */,
+				D92BE5531A5CBC980030A10C /* test.mp3 */,
 				D95F09151A5AEB0C0096374D /* AppDelegate.h */,
 				D95F09161A5AEB0C0096374D /* AppDelegate.m */,
 				D95F09181A5AEB0C0096374D /* ViewController.h */,
@@ -126,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D95F09311A5AEB0D0096374D /* Build configuration list for PBXNativeTarget "EncryptedFilesTest" */;
 			buildPhases = (
+				0F717775ECD028684186E575 /* Check Pods Manifest.lock */,
 				D95F090A1A5AEB0C0096374D /* Sources */,
 				D95F090B1A5AEB0C0096374D /* Frameworks */,
 				D95F090C1A5AEB0C0096374D /* Resources */,
+				8439B2F62EFFEBDFA436C79A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95F091D1A5AEB0C0096374D /* Main.storyboard in Resources */,
+				D92BE55A1A5CC5930030A10C /* 480p_15sec.mov in Resources */,
+				D92BE5541A5CBC980030A10C /* test.mp3 in Resources */,
 				D95F09221A5AEB0C0096374D /* LaunchScreen.xib in Resources */,
+				D92BE5581A5CC3180030A10C /* image.jpg in Resources */,
 				D95F091F1A5AEB0C0096374D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +275,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F717775ECD028684186E575 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8439B2F62EFFEBDFA436C79A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EncryptedFilesTest/Pods-EncryptedFilesTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D95F090A1A5AEB0C0096374D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,6 +315,9 @@
 			files = (
 				D95F091A1A5AEB0C0096374D /* ViewController.m in Sources */,
 				D95F09171A5AEB0C0096374D /* AppDelegate.m in Sources */,
+				D92BE5501A5C90E50030A10C /* SCRHTTPConnection.m in Sources */,
+				D92BE5511A5C90E50030A10C /* SCRHTTPServer.m in Sources */,
+				D92BE54F1A5C90E50030A10C /* SCRHTTPAsyncFileResponse.m in Sources */,
 				D95F09141A5AEB0C0096374D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +440,7 @@
 		};
 		D95F09321A5AEB0D0096374D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3301408736E9F912CF66F370 /* Pods-EncryptedFilesTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EncryptedFilesTest/Info.plist;
@@ -353,6 +451,7 @@
 		};
 		D95F09331A5AEB0D0096374D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FCA7572D1D974BA97536AF /* Pods-EncryptedFilesTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EncryptedFilesTest/Info.plist;
@@ -414,6 +513,7 @@
 				D95F09331A5AEB0D0096374D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D95F09341A5AEB0D0096374D /* Build configuration list for PBXNativeTarget "EncryptedFilesTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +522,7 @@
 				D95F09361A5AEB0D0096374D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

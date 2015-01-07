@@ -1,0 +1,26 @@
+PODS:
+  - CocoaAsyncSocket (7.4.1)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - PureLayout (2.0.4)
+  - RNCryptor (2.2)
+
+DEPENDENCIES:
+  - CocoaHTTPServer (~> 2.3)
+  - PureLayout
+  - RNCryptor (~> 2.2)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: b0a1a89e7ea4c1c0ea4ec83f57d55117d3cdae06
+  CocoaHTTPServer: 217df4cba4e48803db2480f97b805aaad2230dd1
+  CocoaLumberjack: 205769c032b5fef85b92472046bcc8b7e7c8a817
+  PureLayout: ddf4fedf7e2f5984f972bbd2205dda4fc3418347
+  RNCryptor: 4f562062c39f288b99601674f2c50dd44b68d58a
+
+COCOAPODS: 0.35.0
